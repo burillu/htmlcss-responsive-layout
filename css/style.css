@@ -23,6 +23,35 @@ ul{
 
 /* utiliy */
 
+
+.debug{
+    border: 1px solid black;
+}
+.container{
+    padding: 5px;
+}
+.col{
+    padding: 10px;
+}
+
+/* border-radius */
+
+.small-radius{
+    border-radius: 10px;
+}
+.big-radius{
+    border-radius: 20px;
+}
+.circle-radius{
+    border-radius: 50%;
+}
+.padding-lat5{
+    padding: 0 5px;
+}
+.padding-lat10{
+    padding: 0 10px;
+}
+
 /* backgrounds */
 
 .bg-primary{
@@ -67,6 +96,13 @@ ul{
 
 
 /* buttons */
+
+.btn{
+    padding: 6px 15px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+}
 
 /* header */
 
