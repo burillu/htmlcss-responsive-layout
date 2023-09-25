@@ -33,12 +33,25 @@ ul{
 .col{
     padding: 10px;
 }
+/* dimension */
+
+.width100{
+    width: 100%;
+}
 /* image */
+
 .img-fluid{
     width: 100%;
 }
+.p-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
 
 /* flex */
+
 .d-flex{
     display: flex;
 }
@@ -58,11 +71,28 @@ ul{
 .circle-radius{
     border-radius: 50%;
 }
+
+/* padding - margin */
 .padding-lat5{
     padding: 0 5px;
 }
 .padding-lat10{
     padding: 0 10px;
+}
+.padding-top50{
+    padding-top: 50px;
+}
+.padding-bottom50{
+    padding-bottom: 50px;
+}
+.padding-y20{
+    padding: 20px 0;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.mt-50{
+    margin-top: 50px;
 }
 
 /* backgrounds */
@@ -118,6 +148,7 @@ ul{
 }
 
 /* header */
+
 #logo img{
     width: 70px;
 }
