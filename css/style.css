@@ -96,6 +96,9 @@ a{
 .padding-all25{
     padding: 25px;
 }
+.padding-all10{
+    padding: 10px;
+}
 .mb-50{
     margin-bottom: 50px;
 }
@@ -181,3 +184,28 @@ a{
     top: 30px;
 }
 /* footer */
+
+
+/* media queries */
+
+@media screen and (min-width: 576px) {
+    .col{
+        display:flex;
+        flex-flow:row wrap;
+        justify-content: space-between;
+        align-items: stretch;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .col .card{
+        width: calc(100% / 3);
+    }
+
+    .col .card:first-child{
+        width: calc((100% / 3)*2);
+    }
+    .col .card:nth-child(2)>div{
+        height: 100%;
+    }
+        
+}
