@@ -23,6 +23,9 @@ a{
     text-decoration: none;
     color: inherit;
 }
+img{
+    display: block;
+}
 h3{
     font-size: 1.8em;
 }
@@ -44,6 +47,9 @@ h3{
 
 .width100{
     width: 100%;
+}
+.width50{
+    width: 50%;
 }
 /* image */
 
@@ -153,13 +159,16 @@ h3{
     text-align: center;
 }
 .text-height{
-    line-height: 1.5em;
+    line-height: 1.8em;
 }
 .text-space{
     letter-spacing: 3px;
 }
 .italic{
     font-style: italic;
+}
+.bold{
+    font-weight: bold;
 }
 
 /* buttons */
@@ -195,6 +204,17 @@ h2.strategic{
     display: inline-block;
     width: 80px;
     height: 80px;
+}
+.img-container.testimonial{
+    margin: 0 auto;
+    overflow:hidden;
+    height: 200px;
+    width: 200px;
+}
+.img-container.testimonial>img{
+    object-fit: cover;
+    height: 100%;
+    
 }
 /* footer */
 
