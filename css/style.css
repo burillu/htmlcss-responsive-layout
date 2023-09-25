@@ -19,6 +19,10 @@ body{
 ul{
     list-style-type: none;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
 
 
 /* utiliy */
@@ -26,12 +30,13 @@ ul{
 
 .debug{
     border: 1px solid black;
+    min-height: 20px;
 }
 .container{
     padding: 5px;
 }
 .col{
-    padding: 10px;
+    padding: 15px;
 }
 /* dimension */
 
@@ -63,7 +68,7 @@ ul{
 /* border-radius */
 
 .small-radius{
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .big-radius{
     border-radius: 20px;
@@ -88,11 +93,17 @@ ul{
 .padding-y20{
     padding: 20px 0;
 }
+.padding-all15{
+    padding: 15px;
+}
 .mb-50{
     margin-bottom: 50px;
 }
 .mt-50{
     margin-top: 50px;
+}
+.my-20{
+    margin: 20px 0;
 }
 
 /* backgrounds */
@@ -124,8 +135,8 @@ ul{
 .text-secondary{
     color: var(--color-secondary);
 }
-.text-primary{
-    color: var(--color-primary);
+.text-accessory{
+    color: var(--color-accessory);
 }
 .text-underline{
     text-decoration: underline;
@@ -136,7 +147,12 @@ ul{
 .text-center{
     text-align: center;
 }
-
+.text-height{
+    line-height: 1.5em;
+}
+.text-space{
+    letter-spacing: 3px;
+}
 
 /* buttons */
 
@@ -146,6 +162,9 @@ ul{
     display: inline-block;
     text-decoration: none;
 }
+.btn.bg-accessory{
+    padding: 8px 50px;
+}
 
 /* header */
 
@@ -154,4 +173,11 @@ ul{
 }
 /* main */
 
+.card-container{
+    padding: 20px;
+}
+.img-container.phone{
+    position:relative;
+    top: 20px;
+}
 /* footer */
