@@ -93,8 +93,8 @@ a{
 .padding-y20{
     padding: 20px 0;
 }
-.padding-all15{
-    padding: 15px;
+.padding-all25{
+    padding: 25px;
 }
 .mb-50{
     margin-bottom: 50px;
@@ -178,6 +178,6 @@ a{
 }
 .img-container.phone{
     position:relative;
-    top: 20px;
+    top: 30px;
 }
 /* footer */
