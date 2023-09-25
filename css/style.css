@@ -33,6 +33,19 @@ ul{
 .col{
     padding: 10px;
 }
+/* image */
+.img-fluid{
+    width: 100%;
+}
+
+/* flex */
+.d-flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+
 
 /* border-radius */
 
@@ -105,7 +118,9 @@ ul{
 }
 
 /* header */
-
+#logo img{
+    width: 70px;
+}
 /* main */
 
 /* footer */
