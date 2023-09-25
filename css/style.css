@@ -15,3 +15,54 @@
 ul{
     list-style-type: none;
 }
+
+
+/* utiliy */
+
+/* backgrounds */
+
+.bg-primary{
+    background-color: var(--color-primary);
+}
+.bg-secondary{
+    background-color: var(--color-secondary);
+}
+.bg-accessory{
+    background-color: var(--color-accessory);
+}
+.bg-accessory-light{
+    background-color: var(--color-accessory-light);
+}
+.bg-dark{
+    background-color: var(--color-dark);
+}
+
+/* text color decoration and transform */
+
+.text-contrast{
+    color: var(--color-contrast);
+}
+.text-primary{
+    color: var(--color-primary);
+}
+.text-secondary{
+    color: var(--color-secondary);
+}
+.text-primary{
+    color: var(--color-primary);
+}
+.text-underline{
+    text-decoration: underline;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+
+/* buttons */
+
+/* header */
+
+/* main */
+
+/* footer */
