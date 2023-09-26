@@ -33,10 +33,10 @@ h3{
 /* utiliy */
 
 
-/* .debug{
+.debug{
     border: 1px solid black;
     min-height: 20px;
-} */
+}
 .container{
     padding: 5px;
 }
@@ -222,7 +222,7 @@ h2.strategic{
 /* media queries */
 
 @media screen and (min-width: 576px) {
-    .col{
+    #intro .col{
         display:flex;
         flex-flow:row wrap;
         justify-content: space-between;
@@ -230,14 +230,14 @@ h2.strategic{
         width: 100%;
         margin: 0 auto;
     }
-    .col .card{
+    #intro .col .card{
         width: calc(100% / 3);
     }
 
-    .col .card:first-child{
+    #intro .col .card:first-child{
         width: calc((100% / 3)*2);
     }
-    .col .card:nth-child(2)>div{
+    #intro .col .card:nth-child(2)>div{
         height: 100%;
     }
         
