@@ -214,8 +214,10 @@ h2.strategic{
 .img-container.testimonial>img{
     object-fit: cover;
     height: 100%;
+    width: 100%;
     
 }
+
 /* footer */
 
 
@@ -240,5 +242,12 @@ h2.strategic{
     #intro .col .card:nth-child(2)>div{
         height: 100%;
     }
-        
+    #testimonials .col{
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+    #testimonials .text-container{
+        width: calc(100% - 200px);
+    }
 }
