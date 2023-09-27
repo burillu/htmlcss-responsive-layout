@@ -226,6 +226,9 @@ h3 {
 .btn.bg-primary {
     padding: 6px 30px;
 }
+.about-us .btn{
+    padding: 6px 5px;
+}
 /* header */
 
 #logo img {
@@ -350,13 +353,18 @@ h2.strategic {
     }
     #about-us .row{
         display: flex;
-        justify-content: space-between;
+        /* justify-content: space-between; */
     }
     #about-us .col.left{
         width: 60%;
     }
     #about-us .col.right{
-        width: calc(100% / 3)
+        width:40%;
+        font-size: 0.9em;
+    }
+    .img-container.about-us{
+        width: 30vw;
+        height: 30vw;
     }
 }
 
@@ -377,5 +385,16 @@ h2.strategic {
     }
     #working-with-us .col{
         width: calc(100% / 3);
+    }
+    .img-container.about-us{
+        width: 250px;
+        height: 250px;
+    }
+    #about-us .col.right{
+        width:calc(100% / 3);
+        font-size: 1em
+    }
+    #about-us .row{
+        justify-content: space-between;
     }
 }
