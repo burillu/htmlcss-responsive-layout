@@ -255,6 +255,7 @@ h2{
 .img-container.phone {
     position: relative;
     top: 30px;
+    width: 50%;
 }
 
 h2.strategic {
@@ -377,11 +378,31 @@ h2.strategic {
         width: 30vw;
         height: 30vw;
     }
+    footer>.container{
+        width: 561px;
+    }
 }
-
+/* laptop */
+@media screen and (min-width:768px) {
+    #get-started .container{
+        width: 750px;
+    }
+    
+}
 /* desktop */
 
 @media screen and (min-width: 990px) {
+    .double-flex{
+        display: flex;
+        align-items: flex-end;
+
+    }
+    #intro .double-left{
+        width: 50%;
+    }
+    /* #intro .img-container.phone{
+        width: 50%;
+    } */
     #planning .col{
         display: flex;
         justify-content: center;
