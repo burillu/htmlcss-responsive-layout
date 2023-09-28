@@ -34,6 +34,9 @@ img {
 h3 {
     font-size: 1.8em;
 }
+h2{
+    font-size: 2em;
+}
 
 /* utiliy */
 
@@ -209,7 +212,9 @@ h3 {
 .bold {
     font-weight: bold;
 }
-
+.mega-font{
+    font-size: 6em;
+}
 /* buttons */
 
 .btn {
@@ -228,6 +233,12 @@ h3 {
 }
 .about-us .btn{
     padding: 6px 5px;
+}
+.btn.bg-secondary{
+    padding: 12px 32px;
+}
+#get-started .btn{
+    padding: 10px 50px;
 }
 /* header */
 
