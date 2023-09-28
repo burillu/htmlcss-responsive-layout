@@ -41,10 +41,10 @@ h2{
 /* utiliy */
 
 
-.debug {
+/* .debug {
     border: 1px solid black;
     min-height: 20px;
-}
+} */
 
 .container {
     /* padding: 5px; */
@@ -254,8 +254,8 @@ h2{
 
 .img-container.phone {
     position: relative;
-    top: 30px;
-    width: 50%;
+    top: 25px;
+    width: 100%;
 }
 
 h2.strategic {
@@ -395,14 +395,16 @@ h2.strategic {
     .double-flex{
         display: flex;
         align-items: flex-end;
+        height: 100%;
 
     }
     #intro .double-left{
         width: 50%;
+        height: 100%;
     }
-    /* #intro .img-container.phone{
+    #intro .img-container.phone{
         width: 50%;
-    } */
+    }
     #planning .col{
         display: flex;
         justify-content: center;
