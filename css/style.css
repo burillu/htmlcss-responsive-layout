@@ -35,7 +35,7 @@ h3 {
     font-size: 1.8em;
 }
 h2{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 /* utiliy */
@@ -88,7 +88,10 @@ h2{
 .justify-between {
     justify-content: space-between;
 }
-
+.align-center{
+    align-items: center;
+    align-content: center;
+}
 
 /* border-radius */
 
@@ -168,7 +171,9 @@ h2{
 }
 
 /* text color decoration and transform */
-
+.text-black{
+    color: var(--color-dark);
+}
 .text-contrast {
     color: var(--color-contrast);
 }
@@ -235,15 +240,32 @@ h2{
     padding: 6px 5px;
 }
 .btn.bg-secondary{
-    padding: 12px 32px;
+    padding: 5px 10px;
 }
 #get-started .btn{
     padding: 10px 50px;
 }
 /* header */
-
+header{
+    height: 60px;
+}
+header>nav, header .container{
+    height: 100%;
+    padding: 5px;
+}
 #logo img {
     width: 70px;
+}
+.main-menu{
+    display: none;
+
+}
+.main-menu li{
+    padding: 0 10px;
+    cursor: pointer;
+}
+.bars{
+    cursor: pointer;
 }
 
 /* main */
@@ -289,29 +311,30 @@ h2.strategic {
 }
 
 /* about-us */
-.about-us .right{
+.about-us .img-container{
     position: relative;
-}
-.img-container.about-us{
+    display: inline-block;
     width: 250px;
     height: 250px;
-    overflow: hidden;
-
-    /* margin: 0 auto; */
 }
+/* .about-us .img-container>img{
+    width: 100%;
+
+    /* margin: 0 auto; 
+}*/
 .abso-quote{
     color: var(--color-primary);
     font-size: 6em;
     position: absolute;
-    right: 70px;
-    top: 30px;
+    right: 0;
+    top: 0;
     z-index: 10;
 }
-.img-container.about-us>img{
+/* .img-container.about-us>img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
+} */
 .about-us h2{
     font-size: 3em;
 }
@@ -325,7 +348,7 @@ h2.strategic {
 /* MEDIA QUERIES */
 
 /* tablet */
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 600px) {
     #intro .col {
         display: flex;
         flex-flow: row wrap;
@@ -333,6 +356,9 @@ h2.strategic {
         align-items: stretch;
         width: 100%;
         margin: 0 auto;
+    }
+    h2{
+        font-size: 1.3em;
     }
 
     #intro .col .card {
@@ -392,11 +418,20 @@ h2.strategic {
 /* desktop */
 
 @media screen and (min-width: 990px) {
+    .d-none-desk{
+        display: none;
+    }
+    .d-block-desk{
+        display: block;
+    }
     .double-flex{
         display: flex;
         align-items: flex-end;
         height: 100%;
 
+    }
+    h2{
+        font-size: 2em;
     }
     #intro .double-left{
         width: 50%;
